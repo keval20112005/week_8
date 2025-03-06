@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #2C2F3B;
+  color: #E2E8F0;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+section {
+  width: 35rem;
+  max-width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #232634;
+  border-radius: 15px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+}
+
+.personal {
+  background-color: #1E2130;
+  border-radius: 15px;
+  padding: 3rem 2rem 2rem 2rem;
+  text-align: center;
+}
+
+.personal .pro {
+  background-color: #FFB400;
+  color: #1E2130;
+  border: 1px solid #FFB400;
+  border-radius: .5rem;
+  font-size: 1.5rem;
+  padding: .3rem 1rem;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.personal img {
+  width: 14rem;
+  height: 14rem;
+  border-radius: 50%;
+  border: .25rem solid #03BFCB;
+  display: block;
+  margin: 2rem auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.personal img:hover {
+  transform: scale(1.1);
+}
+
+.personal .name {
+  font-size: 2rem;
+  color: #E2E8F0;
+  margin-top: 1.5rem;
+}
+
+.personal .country {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #B0B9C7;
+  margin: 0.3rem;
+}
+
+.personal .stack {
+  font-size: 1.6rem;
+  color: #FFB400;
+  margin-top: 2rem;
+  font-weight: 500;
+}
+
+.personal .buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.personal button {
+  border: 1px solid #03BFCB;
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.personal button:hover {
+  transform: scale(1.05);
+}
+
+.personal button.primary {
+  background-color: #03BFCB;
+  color: #1E2130;
+}
+
+.personal button.primary:hover {
+  background-color: #02899C;
+}
+
+.personal button.secondary {
+  background-color: transparent;
+  color: #FFB400;
+}
+
+.personal button.secondary:hover {
+  background-color: #FFB400;
+  color: #1E2130;
+}
+
+.social {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.social svg {
+  font-size: 2.8rem;
+  color: #03BFCB;
+  margin: 1rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.social svg:hover {
+  color: #FFB400;
+}
+
+.skills {
+  background-color: #2A2D3B;
+  padding: 2rem 1.5rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+.skills h2 {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #FFB400;
+  font-weight: bold;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills ul li {
+  font-size: 1.3rem;
+  background-color: #1F1A36;
+  color: #B0B9C7;
+  border-radius: .5rem;
+  padding: .7rem 1.5rem;
+  margin: .3rem;
+  border: 2px solid #3B3F52;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.skills ul li:hover {
+  background-color: #FFB400;
+  color: #1E2130;
+  transform: scale(1.05);
+}
+
+.counter-container {
+  background-color: #3B3F52;
+  width: 300px;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+}
+
+.counter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.counter-btn {
+  background-color: #FFB400;
+  color: white;
+  font-size: 2rem;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.counter-btn:hover {
+  transform: scale(1.1);
+}
+
+.decrement-btn {
+  background-color: #E74C3C;
+}
+
+.decrement-btn:hover {
+  background-color: #C0392B;
+}
+
+.increment-btn {
+  background-color: #27AE60;
+}
+
+.increment-btn:hover {
+  background-color: #2ECC71;
+}
